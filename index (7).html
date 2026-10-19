@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sachin Gangwar | Web Developer & Website Designer in Bareilly</title>
+  <meta name="description" content="Sachin Gangwar is a beginner web developer and website designer in Bareilly, Uttar Pradesh. I build modern, mobile-friendly websites for salons, cafes, bakeries, tailors and more.">
+  <meta name="keywords" content="web developer Bareilly, website designer, business website, salon website, HTML CSS JavaScript">
+  <meta name="author" content="Sachin Gangwar">
+  <meta property="og:title" content="Sachin Gangwar | Website Designer">
+  <meta property="og:description" content="Professional websites for local businesses.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0f1f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">Sachin<span>.dev</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="container hero-inner reveal">
+    <p class="badge">👋 Beginner Web Developer | Website Designer</p>
+    <h1>Hi, I'm <span class="grad">Sachin Gangwar</span></h1>
+    <h2>I Build Professional Websites for Businesses.</h2>
+    <p class="lead">Clean, modern and mobile-friendly websites for local businesses in Bareilly and beyond — designed to help you look professional and get more customers online.</p>
+    <div class="btn-row">
+      <a href="#projects" class="btn btn-primary">View My Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact Me</a>
+    </div>
+    <p class="loc">📍 Bareilly, Uttar Pradesh, India</p>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container about-grid">
+    <div class="reveal">
+      <p class="eyebrow">About Me</p>
+      <h2 class="title">Turning local businesses into <span class="grad">online brands</span></h2>
+    </div>
+    <div class="reveal">
+      <p>I'm Sachin, a beginner web developer from Bareilly who loves building modern websites. I'm still growing, and I put real effort into every project I make.</p>
+      <p>I create websites for local businesses such as <strong>salons, cafes, bakeries, tailoring shops, clothing brands and marriage halls</strong>. Each site is clean, fast, easy to use on a phone, and made to match your business.</p>
+      <p>Every project in my portfolio below is a real website I built — you can open them and see the work yourself.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section alt">
+  <div class="container">
+    <p class="eyebrow center">Skills</p>
+    <h2 class="title center">What I work with</h2>
+    <p class="sub center">I'm at a beginner level and keep learning with every project.</p>
+    <div class="grid skills-grid">
+      <article class="card skill reveal"><span class="ico">🌐</span><h3>HTML</h3><p>Semantic page structure</p></article>
+      <article class="card skill reveal"><span class="ico">🎨</span><h3>CSS</h3><p>Layouts, Flexbox, Grid, animations</p></article>
+      <article class="card skill reveal"><span class="ico">⚡</span><h3>JavaScript</h3><p>Basic interactivity and menus</p></article>
+      <article class="card skill reveal"><span class="ico">📱</span><h3>Responsive Design</h3><p>Works on mobile, tablet, desktop</p></article>
+      <article class="card skill reveal"><span class="ico">🔧</span><h3>Git</h3><p>Basic version control</p></article>
+      <article class="card skill reveal"><span class="ico">🐙</span><h3>GitHub</h3><p>Storing and sharing code</p></article>
+      <article class="card skill reveal"><span class="ico">🚀</span><h3>GitHub Pages</h3><p>Free website hosting</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <p class="eyebrow center">Projects</p>
+    <h2 class="title center">My Website Projects</h2>
+    <p class="sub center">Sample websites I designed and built for different types of local businesses.</p>
+
+    <div class="grid projects-grid" id="projectsGrid">
+
+      <!-- ======= PROJECT CARD TEMPLATE (copy from here to </article>) =======
+           To add a new project: copy one full <article> block, paste it below the last one,
+           then change: the thumb class/emoji, alt text (aria-label), title, description,
+           tech tags, and the two links (Live Demo, View Code).
+           If you don't have a link yet, use href="#" and keep class "is-placeholder". -->
+
+      <article class="card project reveal">
+        <div class="thumb t1" role="img" aria-label="Preview thumbnail of the Sachin Tailor website, a tailoring shop"><span>✂️</span></div>
+        <div class="p-body">
+          <h3>Sachin Tailor Website</h3>
+          <p>A clean website for a tailoring shop showing services, style and how to get in touch.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="p-btns">
+            <!-- Live demo URL not provided yet: add it here -->
+            <a href="#" class="btn btn-primary sm is-placeholder" data-note="Live demo link coming soon">Live Demo</a>
+            <a href="https://github.com/saachingangwar-dotcom/New-sachin-tailor-" class="btn btn-outline sm" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="thumb t2" role="img" aria-label="Preview thumbnail of the Ash.Beauty website, a beauty salon"><span>💄</span></div>
+        <div class="p-body">
+          <h3>Ash.Beauty Website</h3>
+          <p>An elegant beauty and salon website with a stylish look and easy contact options.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="p-btns">
+            <a href="https://saachingangwar-dotcom.github.io/Ash.Beauty/" class="btn btn-primary sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <!-- Replace with the exact repository link when you have it -->
+            <a href="https://github.com/saachingangwar-dotcom" class="btn btn-outline sm" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="thumb t3" role="img" aria-label="Preview thumbnail of the Marriage Hall website"><span>💍</span></div>
+        <div class="p-body">
+          <h3>Marriage Hall Website</h3>
+          <p>A welcoming website for a marriage hall to present the venue, facilities and booking details.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+          <div class="p-btns">
+            <a href="#" class="btn btn-primary sm is-placeholder" data-note="Live demo link coming soon">Live Demo</a>
+            <a href="https://github.com/saachingangwar-dotcom/marriage-hall" class="btn btn-outline sm" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="thumb t4" role="img" aria-label="Preview thumbnail of the Brew and Co cafe website"><span>☕</span></div>
+        <div class="p-body">
+          <h3>Brew &amp; Co. Cafe Website</h3>
+          <p>A warm, modern cafe website that shows the menu and atmosphere. Links are being added.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="p-btns">
+            <!-- PLACEHOLDER: replace "#" with your Brew & Co. live URL, then remove "is-placeholder" -->
+            <a href="#" class="btn btn-primary sm is-placeholder" data-note="Brew &amp; Co. live URL is a placeholder. Add it in index.html">Live Demo</a>
+            <a href="#" class="btn btn-outline sm is-placeholder" data-note="Brew &amp; Co. code link is a placeholder. Add it in index.html">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="thumb t5" role="img" aria-label="Preview thumbnail of the Bakery and Sweets website"><span>🧁</span></div>
+        <div class="p-body">
+          <h3>Bakery &amp; Sweets Website</h3>
+          <p>A colourful, appetising website for a bakery and sweet shop showcasing treats and offers.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div>
+          <div class="p-btns">
+            <a href="https://saachingangwar-dotcom.github.io/index6.html/" class="btn btn-primary sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <!-- Replace with the exact repository link when you have it -->
+            <a href="https://github.com/saachingangwar-dotcom" class="btn btn-outline sm" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card project reveal">
+        <div class="thumb t6" role="img" aria-label="Preview thumbnail of the Clothing Brand website"><span>👗</span></div>
+        <div class="p-body">
+          <h3>Clothing Brand Website</h3>
+          <p>A stylish fashion website to display a clothing brand and its collection online.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="p-btns">
+            <a href="#" class="btn btn-primary sm is-placeholder" data-note="Live demo link coming soon">Live Demo</a>
+            <a href="https://github.com/saachingangwar-dotcom/cloths.html" class="btn btn-outline sm" target="_blank" rel="noopener noreferrer">View Code</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ======= PASTE NEW PROJECT CARDS ABOVE THIS LINE ======= -->
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section alt">
+  <div class="container">
+    <p class="eyebrow center">Services</p>
+    <h2 class="title center">Websites I can build for you</h2>
+    <div class="grid services-grid">
+      <article class="card service reveal"><span class="ico">🏢</span><h3>Business Websites</h3><p>A professional online home for your business.</p></article>
+      <article class="card service reveal"><span class="ico">💇</span><h3>Salon Websites</h3><p>Show services, styles and make booking easy.</p></article>
+      <article class="card service reveal"><span class="ico">☕</span><h3>Cafe &amp; Bakery Websites</h3><p>Show your menu, photos and location.</p></article>
+      <article class="card service reveal"><span class="ico">🧵</span><h3>Tailoring Shop Websites</h3><p>Present your craft and attract new customers.</p></article>
+      <article class="card service reveal"><span class="ico">🏛️</span><h3>Marriage Hall Websites</h3><p>Show your venue, facilities and enquiries.</p></article>
+      <article class="card service reveal"><span class="ico">🎯</span><h3>Landing Pages</h3><p>One focused page for an offer or campaign.</p></article>
+      <article class="card service reveal"><span class="ico">🔄</span><h3>Mobile-Friendly Redesigns</h3><p>Make your old website look modern on phones.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section">
+  <div class="container">
+    <p class="eyebrow center">Why Work With Me</p>
+    <h2 class="title center">Simple, honest and personal</h2>
+    <div class="grid why-grid">
+      <article class="card why reveal"><span class="ico">📱</span><h3>Mobile Responsive</h3><p>Your website looks great on every phone, tablet and computer.</p></article>
+      <article class="card why reveal"><span class="ico">✨</span><h3>Modern Design</h3><p>Clean, professional look that builds trust with customers.</p></article>
+      <article class="card why reveal"><span class="ico">💬</span><h3>Easy Contact Options</h3><p>WhatsApp, call and email buttons so customers reach you fast.</p></article>
+      <article class="card why reveal"><span class="ico">🤝</span><h3>Personalized Solutions</h3><p>Every website is made around your business, not a copy-paste template.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section alt">
+  <div class="container">
+    <p class="eyebrow center">Contact</p>
+    <h2 class="title center">Let's build your website</h2>
+    <p class="sub center">Tell me about your business and I'll get back to you.</p>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <!-- WhatsApp link is set automatically from script.js (CONFIG) -->
+        <a id="whatsappBtn" href="#" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">💬 Chat on WhatsApp</a>
+        <a id="emailBtn" href="#" class="btn btn-outline">✉️ Send an Email</a>
+        <p class="note">📍 Bareilly, Uttar Pradesh, India</p>
+        <p class="note" id="contactNote"></p>
+      </div>
+      <form id="contactForm" class="card form reveal" novalidate>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me about your business and the website you need" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container foot-inner">
+    <div>
+      <a href="#home" class="logo">Sachin<span>.dev</span></a>
+      <p>Sachin Gangwar · Web Developer &amp; Website Designer · Bareilly, India</p>
+    </div>
+    <ul class="foot-links">
+      <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li>
+      <li><a href="https://github.com/saachingangwar-dotcom" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </ul>
+  </div>
+  <p class="copy">© <span id="year">2026</span> Sachin Gangwar. All rights reserved.</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
